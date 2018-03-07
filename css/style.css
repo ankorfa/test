@@ -1,0 +1,18 @@
+#main{
+	height: 768px;
+	width: 1024px;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	border: 2px solid red;
+	/*margin: 100px;*/
+}
+#main div{
+	/*position: absolute;*/
+	height: 25px;
+	width: 25px;
+	/*bottom: 150px; 
+    right: 200px; */
+    border: 2px solid black;
+    background: blue;    
+}
