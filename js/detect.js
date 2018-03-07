@@ -1,8 +1,6 @@
-
-
-function get_name_browser(){
+function get_name_browser() {
     // получаем данные userAgent
-    var ua = navigator.userAgent;    
+    var ua = navigator.userAgent;
     // с помощью регулярок проверяем наличие текста,
     // соответствующие тому или иному браузеру
     if (ua.search(/Chrome/) > 0) return 'Chrome';
@@ -15,9 +13,9 @@ function get_name_browser(){
     // для популярных браузеров
     return 'unknow';
 }
- 
+
 // пример использования
 var browser = get_name_browser();
-alert('квадрат был сгенерирован для '+(browser));
+alert('квадрат был сгенерирован для ' + (browser));
 
 
