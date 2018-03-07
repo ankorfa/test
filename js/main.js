@@ -1,5 +1,5 @@
 
-//git test
+
 window.onload = function(){
   (function build() {
     $.ajax({
