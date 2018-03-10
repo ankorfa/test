@@ -16,6 +16,6 @@ function get_name_browser() {
 
 // пример использования
 var browser = get_name_browser();
-alert('квадрат был сгенерирован для ' + (browser));
+console.log('квадрат был сгенерирован для ' + (browser));
 
 
